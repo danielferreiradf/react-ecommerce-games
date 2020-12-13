@@ -14,5 +14,8 @@ exports[`<Main /> should render the heading 1`] = `
   <h1>
     React Avancado
   </h1>
+  <p>
+    Hello there!
+  </p>
 </main>
 `

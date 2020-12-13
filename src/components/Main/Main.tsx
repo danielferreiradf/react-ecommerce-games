@@ -1,8 +1,9 @@
 import * as S from './Main.styles'
 
-const Main = () => (
+const Main = ({ title = 'React Avancado', description = 'Hello there!' }) => (
   <S.Wrapper>
-    <h1>React Avancado</h1>
+    <h1>{title}</h1>
+    <p>{description}</p>
   </S.Wrapper>
 )
 
